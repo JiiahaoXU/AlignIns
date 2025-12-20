@@ -70,7 +70,7 @@ For other arguments, you can check the `federated.py` file where the detailed ex
 
 ## Citation
 
-You may use the following BibTeX entry for citation.
+We provide the following BibTeX entry for citation for your convenience.
 
 ```
 @InProceedings{Xu_2025_CVPR_AlignIns,
@@ -100,7 +100,7 @@ You may use the following BibTeX entry for citation.
     pages     = {1508-1517}
 }
 
-@inproceedings{Xu_2025_MobiHoc_OBA_BNGuard,
+@InProceedings{Xu_2025_MobiHoc_OBA_BNGuard,
   title={On the Out-of-Distribution Backdoor Attack for Federated Learning},
   author={Xu, Jiahao and Zhang, Zikai and Hu, Rui},
   booktitle={Proceedings of the Twenty-sixth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing},
