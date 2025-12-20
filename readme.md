@@ -69,8 +69,11 @@ Here,
 For other arguments, you can check the `federated.py` file where the detailed explanation is presented.
 
 ## Citation
+
+You may use the following BibTeX entry for citation.
+
 ```
-@InProceedings{Xu_2025_CVPR,
+@InProceedings{Xu_2025_CVPR_AlignIns,
     author    = {Xu, Jiahao and Zhang, Zikai and Hu, Rui},
     title     = {Detecting Backdoor Attacks in Federated Learning via Direction Alignment Inspection},
     booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
@@ -108,4 +111,4 @@ For other arguments, you can check the `federated.py` file where the detailed ex
 ```
 
 ## Acknowledgment
-Our code is constructed on https://github.com/git-disl/Lockdown, big thanks to their contribution!
+Our code is partially constructed on https://github.com/git-disl/Lockdown, big thanks to their contribution!
