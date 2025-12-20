@@ -6,6 +6,16 @@ You can find the paper [here][paper].
 
 [paper]: https://arxiv.org/abs/2503.07978
 
+## Related Methods
+
+If you found AlignIns is interesting, you may also refer to our other related works on robust FL:
+
+- **OBA & BNGuard** (MobiHoc 2025, **Oral presentation**): https://github.com/JiiahaoXU/SoDa-BNGuard  
+- **MASA** (WACV 2025): https://github.com/JiiahaoXU/MASA  
+- **LASA** (WACV 2025, **Oral presentation**): https://github.com/JiiahaoXU/LASA
+
+All these methods are based on simple and effective ideas for protecting federated learning systems. They are easy to implement and can be directly integrated into this codebase or into existing federated learning frameworks.
+
 ## Usage
 
 If you have any issues using this repo, feel free to contact Jiahao @ jiahaox@unr.edu.
@@ -39,7 +49,7 @@ If you want to run a case with non-IID settings, you can easily use the followin
 ```
 python federated.py \
 --poison_frac 0.3 --num_corrupt 4 \
---non_iid --alpha 0.5 \
+--non_iid --beta 0.5 \
 --aggr alignins --data cifar10 --attack badnet
 ```
 
@@ -68,6 +78,33 @@ For other arguments, you can check the `federated.py` file where the detailed ex
     year      = {2025},
     pages     = {20654-20664}
 }
+
+@InProceedings{Xu_2025_WACV_MASA,
+    author    = {Xu, Jiahao and Zhang, Zikai and Hu, Rui},
+    title     = {Identify Backdoored Model in Federated Learning via Individual Unlearning},
+    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {February},
+    year      = {2025},
+    pages     = {7949-7958}
+}
+
+@InProceedings{Xu_2025_WACV_LASA,
+    author    = {Xu, Jiahao and Zhang, Zikai and Hu, Rui},
+    title     = {Achieving Byzantine-Resilient Federated Learning via Layer-Adaptive Sparsified Model Aggregation},
+    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {February},
+    year      = {2025},
+    pages     = {1508-1517}
+}
+
+@inproceedings{Xu_2025_MobiHoc_OBA_BNGuard,
+  title={On the Out-of-Distribution Backdoor Attack for Federated Learning},
+  author={Xu, Jiahao and Zhang, Zikai and Hu, Rui},
+  booktitle={Proceedings of the Twenty-sixth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing},
+  pages={181--190},
+  year={2025}
+}
+
 ```
 
 ## Acknowledgment
