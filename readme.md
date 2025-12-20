@@ -2,7 +2,7 @@
 
 This is the official implementation for CVPR'25 **✨Highlight✨** paper "Detecting Backdoor Attacks in Federated Learning via Direction Alignment Inspection".
 
-You can find the paper [here][paper].
+You can find the full version of our paper [here][paper].
 
 [paper]: https://arxiv.org/abs/2503.07978
 
